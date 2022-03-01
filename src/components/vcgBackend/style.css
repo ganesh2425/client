@@ -1,0 +1,26 @@
+#data-table_paginate {
+  top: 10px;
+  position: absolute;
+  right: 10px;
+}
+.dataTables_length,
+label {
+  display: flex;
+  flex-direction: row;
+}
+.pagination {
+  padding-bottom: 10px;
+}
+.custom-select {
+  display: inline-block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid #ced4da;
+  vertical-align: middle;
+  background: #fff right 0.75rem center/8px 10px no-repeat;
+}

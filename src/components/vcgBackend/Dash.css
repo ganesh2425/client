@@ -1,0 +1,79 @@
+.container-scroller {
+  display: flex;
+  overflow: hidden;
+  flex-direction: row;
+  font-family: "Rubik", sans-serif;
+}
+
+.main-panel {
+  -webkit-transition: width 0.25s ease, margin 0.25s ease;
+  transition: width 0.25s ease, margin 0.25s ease;
+  width: 100%;
+  min-height: calc(100vh - 70px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.content-wrapper {
+  background: #f2f2f2;
+  padding: 1rem;
+  width: 100%;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+}
+
+.status-pending,
+.status-new {
+  background-color: #faa32f;
+}
+.page-header {
+  margin: 0 0 1.5rem 0;
+  font-size: 1rem;
+}
+.flex-wrap {
+  flex-wrap: wrap !important;
+}
+body {
+  font-size: 1rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  -webkit-font-smoothing: antialiased;
+}
+.stretch-card {
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  justify-content: stretch;
+}
+.pb-sm-3,
+.py-sm-3 {
+  padding-bottom: 1rem !important;
+}
+.align-items-start {
+  align-items: flex-start !important;
+}
+.justify-content-between,
+.page-header {
+  -webkit-box-pack: justify !important;
+  justify-content: space-between !important;
+}
+.d-flex {
+  display: flex !important;
+}
+
+h2,
+.h2 {
+  font-size: 28px;
+  font-family: "Rubik", sans-serif;
+}
+.row {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}

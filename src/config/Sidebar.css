@@ -1,0 +1,217 @@
+.sidebar {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#e6e5f2),
+    to(#4599cd)
+  );
+  background: linear-gradient(to bottom, #e6e5f2, #4599cd);
+  width: 260px;
+  z-index: 11;
+  transition: width 0.25s ease, background 0.25s ease;
+  -webkit-transition: width 0.25s ease, background 0.25s ease;
+  -moz-transition: width 0.25s ease, background 0.25s ease;
+  -ms-transition: width 0.25s ease, background 0.25s ease;
+  min-height: calc(100vh -70px);
+  width: 260px;
+  font-family: "Rubik", sans-serif;
+  padding-right: 15px;
+  padding-bottom: 50px;
+}
+.sidebar .sidebar-brand-wrapper {
+  width: auto;
+  height: 70px;
+}
+.align-item-center {
+  align-items: center !important;
+  -webkit-box-align: center !important;
+}
+
+.sidebar .sidebar-brand-wrapper .sidebar-brand {
+  padding: 2.25rem 0 1.25rem 20px;
+}
+
+.sidebar .sidebar-brand-wrapper .sidebar-brand img {
+  width: 225px;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.sidebar .sidebar-brand-wrapper .brand-logo-mini {
+  display: none;
+}
+
+.sidebar .sidebar-brand-wrapper .brand-logo-mini img {
+  width: 30px;
+  margin: auto;
+}
+.pl-4 {
+  padding-left: 1.5rem !important;
+}
+.pt-3 {
+  padding-top: 1rem !important;
+}
+.sidebar .nav {
+  overflow: hidden;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: o;
+  list-style: none;
+}
+ul {
+  font-size: 0.875rem;
+}
+.sidebar .nav .nav-item {
+  padding: 0 1.25rem;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  transition-property: background;
+}
+ul li {
+  line-height: 1.8;
+}
+
+.sidebar .nav .nav-item .collapse {
+  z-index: 999;
+}
+
+.sidebar .nav .nav-item .nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  padding: 12px 0 12px 0;
+  color: #3e4b5b;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+h5,
+.h5 {
+  font-size: 1rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: 500;
+  line-height: 1.2;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+.sidebar .nav .nav-item .nav-link .menu-title {
+  color: #141212;
+  display: inline-block;
+  font-size: 15;
+  line-height: 1;
+  vertical-align: middle;
+}
+.sidebar .nav .nav-item .nav-link i.menu-arrow {
+  font: normal normal normal 24px/1 "Material Design Icons";
+  line-height: 1;
+  font-size: 20px;
+  margin-left: auto;
+  color: #9e9da0;
+}
+.sidebar .nav .nav-item .nav-link i.menu-arrow {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.sidebar .nav .nav-item .nav-link i.menu-arrow:before {
+  content: "\F415";
+  font-size: 16px;
+  color: #423a8e;
+  opacity: 0.36;
+}
+.sidebar .nav .nav-item .nav-link .menu-title {
+  white-space: normal;
+}
+.sidebar .nav .nav-item .nav-link .badge {
+  margin-right: auto;
+  margin-left: 1rem;
+}
+
+.sidebar .nav .nav-item .nav-link:hover {
+  font-weight: 500;
+  -webkit-transition-duration: 0.45s;
+  transition-duration: 0.45s;
+}
+.sidebar .nav .nav-item.active {
+  background-color: #fff;
+}
+.sidebar .nav .nav-item.active > .nav-link {
+  font-weight: 500;
+}
+.sidebar .nav .nav-item.active > .nav-link .menu-title {
+  color: inherit;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+.sidebar .nav .nav-item.nav-profile .nav-link {
+  height: auto;
+  line-height: 1;
+  border-top: 0;
+  padding: 1.25rem 0;
+}
+.sidebar .nav .nav-item.nav-profile .nav-link .nav-profile-image {
+  width: 35px;
+  height: 35px;
+}
+.sidebar .nav .nav-item.nav-profile .nav-link .nav-profile-image img {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  border: solid 2px #c0bfcf;
+}
+.sidebar .sidebar-brand-wrapper .sidebar-brand {
+  padding: 2.25rem 0 1.25rem 20px;
+}
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+.sidebar .sidebar-brand-wrapper .sidebar-brand img {
+  width: 225px;
+  margin: auto;
+  vertical-align: middle;
+}
+.text-muted {
+  color: #6c7293;
+}
+.text-right {
+  text-align: right !important;
+}
+.table-responsive {
+  font-size: 0.875rem;
+}
+.menu-title {
+  margin-left: 7px;
+}
